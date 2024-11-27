@@ -13,7 +13,13 @@ const projects: Project[] = [
     title: "Fedora Brasil",
     description: "Fedora Brasil é uma comunidade dedicada ao sistema operacional Fedora.",
     link: "https://fedorabr.org/",
-    image: "https://fedorabr.org/wp-content/uploads/2021/05/Fedora-logo.svg", // Coloque o caminho correto da imagem
+    image: "https://fedorabr.org/uploads/272J4YW93TFF/logo.png?v=2022.003", // Coloque o caminho correto da imagem
+  },
+  {
+    title: "AASOFT",
+    description: "empresa software",
+    link: "https://aasoft.com.br/",
+    image: "https://aasoft.com.br/images/logo.png", // Coloque o caminho correto da imagem
   },
   {
     title: "Github",

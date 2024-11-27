@@ -5,6 +5,7 @@ import Services from './components/Services';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
+import Projects from "./components/Projects"
 
 const App: React.FC = () => {
   return (
@@ -12,6 +13,7 @@ const App: React.FC = () => {
       <Header />
       <About />
       <Services />
+      <Projects />
       <Contact />
       <Footer />
       <WhatsAppButton />

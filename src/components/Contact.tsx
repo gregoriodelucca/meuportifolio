@@ -48,7 +48,6 @@ const Contact: React.FC = () => {
             Ou entre em contato diretamente:
           </p>
           <p className="font-medium text-blue-500">gregoriodelucca@gmail.com</p>
-          <p className="font-medium text-blue-500">+55 (11) 97110-8462 </p>
         </div>
       </div>
     </section>

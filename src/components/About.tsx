@@ -1,5 +1,5 @@
 import React from 'react';
-import foto from '../assets/eu.jpg'; // Importando a imagem
+import foto from '../assets/img/eu.jpg'; // Importando a imagem
 
 const About: React.FC = () => {
   return (

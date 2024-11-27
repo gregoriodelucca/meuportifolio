@@ -10,10 +10,10 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "Fedora Brasil",
-    description: "Fedora Brasil é uma comunidade dedicada ao sistema operacional Fedora.",
-    link: "https://fedorabr.org/",
-    image: "https://fedorabr.org/uploads/272J4YW93TFF/logo.png?v=2022.003", // Coloque o caminho correto da imagem
+    title: "A.L. VEICULOS",
+    description: "A.L. VEICULOS a melhor loja vendedora de carro do Brasil",
+    link: "https://www.alveiculossp.com.br",
+    image: "https://cdn.sitewebmotors.com.br/uploads/userGallery/f4ca301a146f9b3d5fe0b7fd7c0a65b3.png", // Coloque o caminho correto da imagem
   },
   {
     title: "AASOFT",

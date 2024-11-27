@@ -22,7 +22,7 @@ const Services: React.FC = () => {
 
           {/* Serviço de Desenvolvimento Mobile */}
           <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow flex flex-col items-center">
-            <div className="text-purple-500 mb-4">
+            <div className="text-blue-500 mb-4">
               <FaMobileAlt size={40} />
             </div>
             <h3 className="text-xl font-semibold mb-2">Desenvolvimento Mobile</h3>
@@ -32,7 +32,7 @@ const Services: React.FC = () => {
           </div>
            {/* Serviço de Edição Audiovisual */}
            <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow flex flex-col items-center">
-            <div className="text-green-500 mb-4">
+            <div className="text-blue-500 mb-4">
               <FaCamera size={40} />
             </div>
             <h3 className="text-xl font-semibold mb-2">Edição Audiovisual</h3>

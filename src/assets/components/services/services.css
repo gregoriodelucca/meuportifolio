@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@import "tailwindcss";
+
+.services-section {
+  @apply bg-gray-900 text-white py-16 px-8;
+}
+
+.services-title {
+  @apply text-4xl font-bold text-center text-blue-500 mb-12;
+}
+
+.cards-container {
+  @apply flex flex-col md:flex-row justify-center gap-8 max-w-6xl mx-auto;
+}
+
+.card {
+  @apply bg-gray-800 rounded-lg shadow-lg p-6 flex flex-col items-center text-center hover:shadow-blue-600 transition-shadow cursor-pointer;
+}
+
+.card-icon {
+  @apply text-blue-500 text-6xl mb-4;
+}
+
+.card-title {
+  @apply text-xl font-semibold mb-2;
+}
+
+.card-description {
+  @apply text-gray-300;
+}

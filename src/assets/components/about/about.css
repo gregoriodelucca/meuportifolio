@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+.about-section {
+  @apply flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white p-8 gap-6;
+
+  /* Para telas médias para cima, deixa o conteúdo em linha */
+  @screen md {
+    @apply flex-row gap-12 p-12;
+    /* para alinhar verticalmente */
+    align-items: center;
+  }
+}
+
+.photo {
+  @apply rounded-full w-48 h-48 object-cover border-4 border-blue-600;
+  box-shadow: 0 0 10px 3px rgba(30, 221, 255, 0.8);
+
+  /* Deixa a foto maior em telas maiores */
+  @screen md {
+    @apply w-64 h-64;
+  }
+}
+
+.name-gradient {
+  @apply text-5xl font-extrabold bg-gradient-to-r from-blue-400 via-blue-400 to-cyan-100 bg-clip-text text-transparent text-center;
+
+  /* Em telas médias para cima, alinha à esquerda e maior */
+  @screen md {
+    @apply text-6xl text-left;
+  }
+}
+
+.subtitle {
+  @apply text-lg text-gray-300 text-center;
+
+  @screen md {
+    @apply text-left;
+  }
+}
+
+.social-icons {
+  @apply flex gap-6 mt-4 justify-center;
+
+  @screen md {
+    @apply justify-start;
+  }
+}
+
+.btn-curriculo {
+  @apply mt-6 px-6 py-3 rounded-md bg-green-600 hover:bg-blue-700 transition-colors font-semibold;
+  box-shadow: 0 0 12px 3px rgba(216, 196, 236, 0.9);
+
+  @screen md {
+    @apply self-start;
+  }
+}
+
+.github {
+  @apply text-blue-400 transition-colors duration-300;
+  filter: drop-shadow(0 0 8px #3b82f6);
+}
+
+.github:hover {
+  @apply text-blue-600;
+  filter: drop-shadow(0 0 12px #3b82f6);
+}
+
+.linkedin {
+  @apply bg-green-600 rounded-full p-2 text-white flex items-center justify-center transition-colors duration-300;
+  filter: drop-shadow(0 0 12px #22c55e);
+}
+
+.linkedin:hover {
+  @apply bg-green-700;
+  filter: drop-shadow(0 0 18px #22c55e);
+}

@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+.projeto-section {
+  @apply bg-gray-900 text-white py-16 px-8;
+}
+
+.projeto-title {
+  @apply text-4xl font-bold text-center text-blue-500 mb-12;
+}
+
+.projeto-grid {
+  @apply grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto;
+}
+
+.projeto-card {
+  @apply bg-gray-800 rounded-lg shadow-lg overflow-hidden hover:scale-105 transform transition duration-300;
+}
+
+.projeto-img {
+  @apply w-full h-48 object-cover;
+}
+
+.projeto-body {
+  @apply p-4;
+}
+
+.projeto-nome {
+  @apply text-xl font-semibold text-blue-400 mb-2;
+}
+
+.projeto-descricao {
+  @apply text-gray-300;
+}

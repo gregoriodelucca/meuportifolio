@@ -7,7 +7,7 @@ export default function Projeto() {
       id: 1,
       nome: "Portfólio",
       descricao: "Site moderno criado com React e TailwindCSS.",
-      imagem: "",
+      imagem: "https://ribeiroveiculossp.vercel.app/assets/capa-CjJkPzzd.jpg",
     },
     {
       id: 2,
